@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/sky_blue"
+    android:layout_height="150dp"
+    app:cardCornerRadius="15sp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTaskGroup"
+            android:text="Project"
+            android:textStyle="normal"
+            android:textColor="@color/grey"
+            android:textSize="14sp"
+            android:layout_margin="10sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTaskGroup"
+            android:id="@+id/tvNameTask"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_margin="10sp"
+            android:text="This is the name of the current task"/>
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:layout_alignParentBottom="true"
+
+            android:layout_margin="10sp"
+            app:trackThickness="15sp"
+            app:trackColor="@color/white"
+            app:indicatorColor="@color/blue"
+            android:progress="10"
+            app:trackCornerRadius="30sp"
+            android:max="100"/>
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

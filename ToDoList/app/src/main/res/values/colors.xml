@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary_color">@color/lime_green</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
+    <color name="green">#008000</color>
+    <color name="lime_green">#32cd32</color>
+    <color name="screamin_green">#76ff7a</color>
+    <color name="light_green">#90ee90</color>
+    <color name="lime">#00ff00</color>
+    <color name="diamond">#b9f2ff</color>
+    <color name="cyan">#00b7eb</color>
+    <color name="peach_orange">#ffcc99</color>
+    <color name="orange">#ffa500</color>
+    <color name="electric_lavender">#f4bbff</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="periwinkle">#ccccff</color>
+    <color name="medium_slate_blue">#7b68ee</color>
+    <color name="blue">#0000ff</color>
+    <color name="sky_blue">#B599D2EB</color>
+    <color name="grey">#808080</color>
+    <color name="gainsboro">#dcdcdc</color>
 </resources>

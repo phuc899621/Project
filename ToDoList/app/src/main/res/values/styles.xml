@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedFAB" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="CustomBottomAppBar" parent="Widget.Material3.BottomAppBar">
+        <item name="android:minHeight">56dp</item>  <!-- Chiều cao chuẩn của BottomAppBar -->
+    </style>
+    <style name="Chip_selector_style" parent="Widget.Material3.Chip.Filter.Elevated">
+        <item name="chipBackgroundColor">@color/chip_selector</item>
+    </style>
+</resources>
