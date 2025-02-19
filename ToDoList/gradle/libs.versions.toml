@@ -1,5 +1,6 @@
 [versions]
 agp = "8.8.0"
+gson = "2.12.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -8,16 +9,31 @@ material = "1.12.0"
 activity = "1.9.3"
 constraintlayout = "2.2.0"
 circleimageview = "3.1.0"
+materialchipview = "3.0.8"
+materialdatetimepicker = "4.2.3"
+swipeRevealLayout = "1.4.1"
+swipereveallayoutVersion = "1.5.1"
+materialCalendarview = "2.0.1"
+hiltAndroid = "2.55"
+hiltAndroidCompiler = "2.55"
 
 [libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+activity = { group = "androidx.activity", name = "activity", version = "1.10.0" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 circleimageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview" }
+materialchipview = { group = "com.robertlevonyan.view", name = "MaterialChipView", version.ref = "materialchipview" }
+materialdatetimepicker = { group = "com.wdullaer", name = "materialdatetimepicker", version.ref = "materialdatetimepicker" }
+swipe-reveal-layout = { group = "com.chauthai.swipereveallayout", name = "swipe-reveal-layout", version.ref = "swipeRevealLayout" }
+swipereveallayout = { group = "com.github.Android-library-copy-dependencies", name = "SwipeRevealLayout", version.ref = "swipereveallayoutVersion" }
+material-calendarview = { group = "com.github.prolificinteractive", name = "material-calendarview", version.ref = "materialCalendarview" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

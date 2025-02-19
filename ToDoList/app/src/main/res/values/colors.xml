@@ -3,11 +3,13 @@
     <color name="primary_color">@color/lime_green</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="green">#008000</color>
+    <color name="green">#22B07E</color>
     <color name="lime_green">#32cd32</color>
     <color name="screamin_green">#76ff7a</color>
-    <color name="light_green">#90ee90</color>
+    <color name="light_green">#7AE8C1</color>
+    <color name="apha_green">#5C22B07E</color>
     <color name="lime">#00ff00</color>
+    <color name="light_lime">#5600FF00</color>
     <color name="diamond">#b9f2ff</color>
     <color name="cyan">#00b7eb</color>
     <color name="peach_orange">#ffcc99</color>
@@ -19,5 +21,10 @@
     <color name="blue">#0000ff</color>
     <color name="sky_blue">#B599D2EB</color>
     <color name="grey">#808080</color>
+    <color name="light_grey">#286C6A6A</color>
     <color name="gainsboro">#dcdcdc</color>
+    <color name="dark_grey">#222222</color>
+    <color name="color_background">#F2EBEB</color>
+    <color name="red">#ff4500</color>
+    <color name="light_red">#F1A384</color>
 </resources>

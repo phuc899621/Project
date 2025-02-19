@@ -1,0 +1,47 @@
+*Small View
+Button: btnButton
+TextView: tvTextView
+EditText: etEditText
+ImageView: ivImageView
+MaterialButton: mbMaterialButton
+CheckBox: cbCheckBox
+MaterialCheckBox: mcbMaterialCheckBox
+Toolbar: tbToolbar
+MaterialToolbar: mtbMaterialToolbar
+CollapsingToolbarLayout: ctlCollapsingToolbarLayout
+RadioButton: rbRadioButton
+RadioGroup: rgRadioGroup
+ProgressBar: pbProgressBar
+FloatingActionButton: fabFloatingActionButton
+Chip: cpChip
+Spinner: spSpinner
+ChipGroup: cgChipGroup
+MaterialDivider: mdMaterialDivider
+TextInputLayout: tilTextInputLayout
+TextInputEditText: tieTextInputEditText
+AutocompleteTextView: atvAutoCompleteTextView
+
+
+
+*Large View
+ListView: lvListView
+gridVIew: gvGridView
+ScrollView: svScrollView
+ViewPager: vpViewPager
+RecycleView: rvRecyclerView
+MaterialCardView: mcvMaterialCardView
+NavigationView: nvNavigationView
+tabLayout: tlTabLayout
+BottomNavigationView: bnvBottomNavigationView
+BootomAppBar: babBottomAppBar
+NestedScrollView: nsvNestedScrollView
+AppBarLayout: ablAppBarLayout
+
+
+
+*Layout
+LinearLayout: llLinearLayout
+RelativeLayout: rlRelativeLayout
+FrameLayout: flFrameLayout
+ConstraintLayout: cslConstraintLayout
+CoordinatorLayout: cdlCoordinatorLayout

@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -42,6 +43,12 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.circleimageview)
+    implementation(libs.materialchipview)
+    implementation(libs.gson)
+    implementation(libs.materialdatetimepicker)
+    implementation(libs.swipereveallayout)
+    implementation(libs.hilt.android)
+    annotationProcessor(libs.hilt.android.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

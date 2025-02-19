@@ -21,6 +21,7 @@
         android:layout_gravity="bottom"
         app:fabAnchorMode="cradle"
         app:fabAlignmentMode="center"
+        android:layout_marginBottom="-32dp"
         app:fabCradleRoundedCornerRadius="30sp"
         app:fabAnimationMode="scale"
         app:fabCradleVerticalOffset="10sp"
@@ -31,13 +32,14 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:backgroundTint="@color/light_green"
             android:id="@+id/bnvBottomNavigation"
             app:menu="@menu/bab_item"
-            app:itemIconTint="@color/lime_green"
+            app:itemActiveIndicatorStyle="@color/black"
+            android:layout_marginBottom="-32dp"
+            app:itemIconTint="@color/nav_selector"
             app:labelVisibilityMode="unlabeled"
             android:background="@android:color/transparent"
-
+            app:itemRippleColor="@color/lime"
             app:itemIconSize="32dp"/>
 
     </com.google.android.material.bottomappbar.BottomAppBar>
